@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import WeatherDashboard from './pages/WeatherDashboard';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline bg-orange-400">
-      Hello world!
-    </h1>
+    <WeatherDashboard/>
   );
 }
 
